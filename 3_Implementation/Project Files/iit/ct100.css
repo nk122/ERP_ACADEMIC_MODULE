@@ -1,0 +1,169 @@
+
+
+
+#sesUserName
+{
+    font-weight: bold;
+}
+
+
+#contentMain_HeaderTabs
+{
+    border-top: 2px solid #A8D4D9;
+    border-left: 2px solid #A8D4D9;
+}
+
+
+#contentMain_tabconApplicationForm_tabPersonalDetails_tab, 
+#contentMain_tabconApplicationForm_tabCoursePreference_tab, 
+#contentMain_tabconApplicationForm_tabEducationDetails_tab, 
+#contentMain_tabconApplicationForm_tabEntranceDetails_tab, 
+#contentMain_tabconApplicationForm_tabIISCEntrance_tab, 
+#contentMain_tabconApplicationForm_tabCurrentEmployment_tab, 
+#contentMain_tabconApplicationForm_tabFeesPayment_tab, 
+#contentMain_tabconApplicationForm_tabOrganisationDetails_tab, 
+#contentMain_tabconApplicationForm_tabRSDetails_tab
+{
+    display: none;
+}
+
+
+
+#contentMain_tabconApplicationForm_tabPersonalDetails_lblPersonalDetails
+{
+    background: url(../images/basic_info.png) no-repeat left top;
+}
+#contentMain_tabconApplicationForm_tabPersonalDetails_lblCategoryDetails
+{
+    background: url(../images/category.png) no-repeat left top;
+}
+#contentMain_tabconApplicationForm_tabPersonalDetails_lblFamilyDetails
+{
+    background: url(../images/family.png) no-repeat left top;
+}
+#contentMain_tabconApplicationForm_tabPersonalDetails_lblContactDetails
+{
+    background: url(../images/contact.png) no-repeat left top;
+}
+#contentMain_tabconApplicationForm_tabPersonalDetails_lblUploadPhoto
+{
+    background: url(../images/photograph.png) no-repeat left top;
+}
+
+#contentMain_tabconApplicationForm_tabCoursePreference_lblAcdQual
+{
+    background: url(../images/book.png) no-repeat left top;
+}
+#contentMain_tabconApplicationForm_tabCoursePreference_lblDepartmentPref,
+#contentMain_tabconApplicationForm_tabPersonalDetails_lblDepartmentPref
+{
+    padding-left: 25px;
+    background: url(../images/preferences.png) no-repeat left top;
+}
+
+#contentMain_tabconApplicationForm_tabEducationDetails_lblEduDet
+{
+    background: url(../images/bookcase.png) no-repeat left top;
+}
+#contentMain_tabconApplicationForm_tabPersonalDetails_lblRegistrationDetails
+{
+background: url(../images/ico_do_not.png) no-repeat left top;
+}
+
+#contentMain_tabconApplicationForm_tabPersonalDetails_lblPersonalDetails, 
+#contentMain_tabconApplicationForm_tabPersonalDetails_lblDepartmentPrefHelp,
+#contentMain_tabconApplicationForm_tabPersonalDetails_lblDepartmentPref,
+#contentMain_tabconApplicationForm_tabPersonalDetails_lblUploadPhoto, 
+#contentMain_tabconApplicationForm_tabPersonalDetails_lblContactDetails, 
+#contentMain_tabconApplicationForm_tabPersonalDetails_lblFamilyDetails, 
+#contentMain_tabconApplicationForm_tabPersonalDetails_lblCategoryDetails,
+
+#contentMain_tabconApplicationForm_tabCoursePreference_lblDepartmentPrefHelp, 
+#contentMain_tabconApplicationForm_tabCoursePreference_lblDepartmentPref, 
+#contentMain_tabconApplicationForm_tabCoursePreference_lblAcdQual,
+#contentMain_tabconApplicationForm_tabPersonalDetails_lblRegistrationDetails,
+#contentMain_tabconApplicationForm_tabEducationDetails_lblEduDet,
+#contentMain_tabconApplicationForm_tabPersonalDetails_lblregdetails1
+{
+    padding: 3px 0px 2px 25px;
+}
+
+
+
+
+#contentMain_lnkBPersonalDetails
+{
+    padding-left: 25px;
+    background: url(../images/personal-information.png) no-repeat left top;
+}
+#contentMain_lnkBDepartmentPreference
+{
+    padding-left: 25px;
+    background: url(../images/book.png) no-repeat left 3px;
+}
+#contentMain_lnkBEducationalDetails
+{
+    padding-left: 25px;
+    background: url(../images/qualification.png) no-repeat left top;
+}
+#contentMain_lnkBEntranceDetails
+{
+    padding-left: 25px;
+    background: url(../images/entrance.png) no-repeat left top;
+}
+#contentMain_lnkBIISCEntranceDetails
+{
+    padding-left: 25px;
+    background: url(../images/entrance.png) no-repeat left top;
+}
+#contentMain_lnkBApplicationFees
+{
+    padding-left: 20px;
+    background: url(../images/indian_rupee1.png) no-repeat left 3px;
+}
+
+#contentMain_lnkBOrganisationDetails
+{
+    padding-left: 20px;
+    background: url(../images/building.png) no-repeat left 3px;
+}
+
+#contentMain_lnkBRSDetails{
+    padding-left: 23px;
+    background: url(../images/rs.png) no-repeat left top;
+}
+
+#contentMain_lnkBCurrentEmploymentDetails{
+   padding-left: 23px;
+   background: url(../images/rs.png) no-repeat left top;
+}
+/* Space for category */
+#contentMain_tabconApplicationForm_tabPersonalDetails_rdblCategory_0,
+#contentMain_tabconApplicationForm_tabPersonalDetails_rdblCategory_1,
+#contentMain_tabconApplicationForm_tabPersonalDetails_rdblCategory_2,
+#contentMain_tabconApplicationForm_tabPersonalDetails_rdblCategory_3,
+#contentMain_tabconApplicationForm_tabPersonalDetails_rdblCategory_4,
+
+#contentMain_tabconApplicationForm_tabPersonalDetails_rdblSubCategory_0,
+#contentMain_tabconApplicationForm_tabPersonalDetails_rdblSubCategory_1,
+#contentMain_tabconApplicationForm_tabPersonalDetails_rdblSubCategory_2
+{
+margin-right:5px;
+}
+
+#contentMain_lnkDownload{
+    padding: 5px 5px 5px 20px;
+    background: url(../images/ico_download.png) no-repeat left;
+}
+.divDownload{
+width:200px;
+float:right;
+text-align:right;
+padding:5px;
+}
+#pHeading
+{
+padding:5px;
+float:left;
+width:600px;
+}

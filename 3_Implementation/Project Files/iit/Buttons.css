@@ -1,0 +1,19 @@
+﻿.btn
+{
+	border: solid 1px #d1d1d1;
+	border-width: 1px;
+	text-align: right;
+	background-color: #f4f4f4;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.btnYes
+{
+	width: 80px;
+	background: url(../images/btnOk.ico) no-repeat 2px 0px;
+}
+.btnCancel
+{
+	width: 80px;
+	background: url(../images/btnClose.ico) no-repeat 2px 0px;
+}

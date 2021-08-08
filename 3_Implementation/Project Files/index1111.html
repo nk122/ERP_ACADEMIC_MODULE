@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type='text/javascript' src='js/bootstrap.js'></script>
+ <script type='text/javascript' src='js/bootstrap.min.js'></script>
+ <script type='text/javascript' src='js/jquery.js'></script>
+ <link rel="stylesheet" href="css/bootstrap.css">
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ 
+ <!--sds-->
+ <link href="./iit/ams_menu.css" type="text/css" rel="stylesheet">
+ <link href="./iit/base.css" type="text/css" rel="stylesheet">
+ <link href="./iit/Buttons.css" type="text/css" rel="stylesheet">
+ <link href="./iit/ct100.css" type="text/css" rel="stylesheet">
+ <link href="./iit/MainModalDialog.css" type="text/css" rel="stylesheet">
+ <!--fdf-->
+ <link href="css1/main.css" rel="stylesheet" media="all">
+  <link href="css/animate.css" rel="stylesheet" media="all">
+    <title>ERP-Academic Module</title>
+	
+	<style>
+	</style>
+  </head>
+  <body>
+<center>
+<div id="body_container" style="margin-left:15%;" class="table-responsive">
+                    
+                    <div id="right_content" style="width: 95%; padding: 10px;">
+                        <div class="bread_crumb">
+                            <ul>
+                                <li>You are here:</li>
+                                <li><a href="ApplicationInstructions.aspx">Admission</a> \</li>
+                                <li><a href="ApplicationInstructions.aspx">Registration</a> \</li>
+                                
+                            </ul>
+                            <div id="logout">
+                                <a id="lnkHome" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$lnkHome&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"></a>
+                                <span id="sesUserName"></span>
+                                <a id="lnkLogout" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$lnkLogout&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"></a>
+                            </div>
+                        </div>
+                        <div class="bottom_container" style="width: 95%;">
+                            <script type="text/javascript">
+
+</script>
+<script>
+	function signup(){
+var email        = document.getElementById("contentMain_txtUsername").value;
+var password     = document.getElementById("contentMain_txtPassword").value;
+
+    var signup_ajax = new XMLHttpRequest();
+    signup_ajax.open("POST", "http://localhost/ERP/validate.php", true);
+    signup_ajax.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    signup_ajax.onreadystatechange = function () {
+        if (signup_ajax.readyState == 4 && signup_ajax.status == 200) {
+            if (signup_ajax.responseText == "success"){
+                alert("Logging in");
+				//location.href = "validate.php"
+            } 
+            else if (signup_ajax.responseText == "error") {
+                //window.scrollTo(0,0);
+                alert("Try again.");
+            }
+			else{
+			alert("Invalid details")
+			}
+        }
+    }
+    signup_ajax.send("email=" +email+ "&password=" +password );
+    } 
+</script>
+
+                            <!-- Start -->
+                            <div id="UpdateProgress1" style="display:none;" role="status" aria-hidden="true">
+	
+                                    <div id="loading">
+                                        <table>
+                                            <tbody><tr>
+                                                <td>
+                                                    <img src="../Images/ajax-loader.gif" alt="Loading...">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center">
+                                                    Loading...
+                                                </td>
+                                            </tr>
+                                        </tbody></table>
+                                    </div>
+                                
+</div>
+                            <!-- ii -->
+                            
+    <table class="tblFormHeader">
+        <tbody><tr>
+            <td>
+                <span id="contentMain_lblFormTitle" class="FormHeading"> Login for IIT Online Application only after you registered</span>
+            </td>
+            <td class="divMenu">
+              <a href="index_ttms.php">TTMS <strong>/<strong></a>
+              <a href="#">Home</a>
+            </td>
+        </tr>
+    </tbody></table>
+    <br>
+    <table width="980px">
+        <tbody><tr>
+            <td class="info">
+              <span id="contentMain_lblNewUser" style="font-size:Medium;">New user to register</span>
+             <b><a href="1-personal_details.html" target="_self"> click here </a></b> 
+            </td>
+        </tr>
+    </tbody></table>
+    <table class="tbl90per" style="height:300px;">
+        <tbody><tr>
+            <td style="padding: 10px;">
+               <!-- <form action="validate.php" method="post" enctype="multipart/form-data">-->
+                <table id="loginform">
+                    <tbody><tr>
+                        <td class="leftLabels">
+                            
+                            <span id="contentMain_lblUsername">E-mail Address or Application No</span>
+                            <span class="lblRed">*</span>
+                        </td>
+                        <td>
+                            <input name="ctl00$contentMain$txtUsername" type="text" id="contentMain_txtUsername" tabindex="1" class="txtlongNames" onfocus="this.className='txtlongNames_active'" onblur="this.className='txtlongNames'">
+                            <br>
+                            <span id="contentMain_reqfvUserName" class="rfvStyle" style="display:none;">Required field cannot be left blank</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="leftLabels">
+                            <span id="contentMain_lblPassword">Password</span>
+                            <span class="lblRed">*</span>
+                        </td>
+                        <td>
+                            <input name="ctl00$contentMain$txtPassword" type="password" id="contentMain_txtPassword" tabindex="2" class="textbox" onfocus="this.className='textbox_active'" onblur="this.className='textbox'">
+                            <br>
+                            <span id="contentMain_ReqfvPassword" class="rfvStyle" style="display:none;">Required field cannot be left blank</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="leftLabels">
+                        </td>
+                        <!--<td>
+                            <div id="contentMain_uPnlCaptcha">
+	
+                                    <div style="background-color:White;height:50px;width:10px;"><img src="CaptchaImage.axd?guid=5b26029b-faf4-4b34-b37f-020c2fe508c1" border="0" width="150" height="50"></div>
+                                
+</div>
+                        </td>-->
+                    </tr>
+                    <tr>
+                        <!--<td class="leftLabels">
+                            <span id="contentMain_lblCaptcha">Enter the text shown  in the image</span>
+                            <span class="lblRed">*</span>
+							<label for="captcha">Please Enter the Captcha Text</label>
+							<img src="captcha.php"  class="captcha-image"><i class="fas fa-redo refresh-captcha"></i>
+    <br>
+    
+                        </td>-->
+                        <!--<td>
+                            <input name="ctl00$contentMain$txtCaptcha" type="text" id="contentMain_txtCaptcha" tabindex="3" class="textbox" onfocus="this.className='textbox_active'" onblur="this.className='textbox'">
+                            <input type="button" name="ctl00$contentMain$btnRefreshCaptcha" value="Refresh" onclick="javascript:__doPostBack('ctl00$contentMain$btnRefreshCaptcha','')" id="contentMain_btnRefreshCaptcha" class="FormButton" onmouseover="this.className='FormButton_Hover'" onmouseout="this.className='FormButton'" onfocus="this.className='FormButton_Hover'" onblur="this.className='FormButton'" style="width:120px;">
+                            <br>
+                            <span id="contentMain_catptchaError" style="color:Red;"></span>
+                            <span id="contentMain_reqfvCaptcha" class="rfvStyle" style="display:none;">Required field cannot be left blank</span>
+                        </td>-->
+                    </tr>
+					
+                    <tr>
+                        <td class="leftLabels">
+                            &nbsp;
+                        </td>
+                        <td>
+                            <input type="submit" name="ctl00$contentMain$btnLogin" value="Login" onclick = "signup()" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$contentMain$btnLogin&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="contentMain_btnLogin" tabindex="4" class="FormButton" onmouseover="this.className='FormButton_Hover'" onmouseout="this.className='FormButton'" onfocus="this.className='FormButton_Hover'" onblur="this.className='FormButton'" style="width:100px;">
+                            &nbsp;
+                            <a id="contentMain_hplnkPassword" tabindex="5" href="#">Forgot your password?</a>
+                        </td>
+                    </tr>
+                </tbody></table><!--</form>-->
+            </td>
+        </tr>
+    </tbody></table>
+
+                            
+                        </div>
+                    </div>
+                </div>
+				</center>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
