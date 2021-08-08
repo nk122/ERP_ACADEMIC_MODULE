@@ -21,21 +21,18 @@ Using [php & MySQL] for implementing ERP.
 - Course Management
 - Other Processes
 
-## Defining Our System
-
---TBD
-
-
 ## SWOT ANALYSIS
 
 ---PENDING
+## COST
+Its entirely coded in open source languages, so its cost free.
 
 ## 4W's and 1'H
 
 ### Who: 
-Students , Teachers and Admin
+The ERP will provide easy access to students , teachers and Administration Department to handle academic processes.
 ### What:
-
+It provides features like registration , adding new courses ,etc
 ### When:
 
 ### Where: Online through Website
@@ -50,8 +47,8 @@ Firstly, student or teacher has to register on the portal. After the registerati
 | ------ | ------ |------|
 |1|Install xampp & sql server| Implemented|
 |2|Create Dumpy database| Implemented|
-|3| Start Coding in php|Future|
-|4|Testing| Future|
+|3| Start Coding in php|Implemented|
+|4|Testing| Implemented |
 
 
 ### Low Level Requirements:
@@ -61,7 +58,7 @@ Firstly, student or teacher has to register on the portal. After the registerati
 |1| Create data schema | Implemented|
 |2|Create wireframes| Implemented|
 |3| Create Uml for description |Implemented|
-|4|POC| Future|
+|4|POC| Implemented|
 
 
 
