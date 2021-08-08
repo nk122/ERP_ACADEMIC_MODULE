@@ -22,7 +22,7 @@ Using [php & MySQL] for implementing ERP.
 - Other Processes
 
 ## SWOT ANALYSIS
-![Image of Swat](1_Requirements/swat (2).png)
+![Image of Swat](https://github.com/nk122/ERP_ACADEMIC_MODULE/edit/master/1_Requirements/swat(2).png)
 
 ## COST
 Its entirely coded in open source languages, so its cost free.
