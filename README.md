@@ -1,4 +1,4 @@
-# SDLC_ERP
+# ERP_ACADEMIC_MODULE
 
 
 
