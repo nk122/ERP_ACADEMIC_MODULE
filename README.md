@@ -4,7 +4,7 @@
 
  | Code Quality | Code Grade |
 |----------|-------|
-
+|![t](https://github.com/nk122/ERP_ACADEMIC_MODULE/blob/c738be1223c6fa5ecd9023139f40462c61cdb5bf/1_Requirements/svg.svg)|
 
 
 
