@@ -22,8 +22,8 @@ Using [php & MySQL] for implementing ERP.
 - Other Processes
 
 ## SWOT ANALYSIS
+![Image of Swat](1_Requirements/swat (2).png)
 
----PENDING
 ## COST
 Its entirely coded in open source languages, so its cost free.
 
